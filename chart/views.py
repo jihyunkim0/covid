@@ -111,7 +111,7 @@ def make_chart(my_data):
         },
         'yAxis': [{  # Primary yAxis
             'labels': {
-                'format': '{value} 건/십만 명',
+                'format': '{value} 건/백만 명',
                 'style': {'color': 'blue'}
             }, 'title': {
                 'text': '누적 비율',
